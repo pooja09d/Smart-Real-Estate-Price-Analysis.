@@ -75,16 +75,19 @@ Location: zipcode, waterfront, view Renovation & construction: yr_built, yr_reno
 Project Workflow
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1️⃣ Data Loading & Understanding
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 •	Loaded dataset using Pandas
 •	Checked shape, data types, and summary statistics
 •	Identified irrelevant and missing data
 
 2️⃣ Data Cleaning & Preprocessing
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 •	Removed unnecessary index column (Unnamed: 0)
 •	Converted date column to datetime format
 •	Validated numerical and categorical features
 
 3️⃣ Missing Value Treatment
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Missing values were found in:
 1.	bedrooms
 2.	bathrooms
@@ -92,6 +95,7 @@ Method Used:
 •	Median imputation was applied to preserve data distribution and avoid the impact of outliers.
 
 4️⃣ Exploratory Data Analysis (EDA)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 EDA was performed using:
 1.	Histograms
 2.	Scatter plots
@@ -107,12 +111,14 @@ EDA was performed using:
 12.	Comparison of house prices by number of floors
     
 5️⃣ Feature Engineering
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 •	New analytical features were created to improve insights:
 •	house_age – Age of the house
 •	is_renovated – Renovation indicator
 •	price_per_sqft – Fair price comparison metric
 
 6️⃣ Segment-Wise Analysis
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Properties were analyzed across:
 •	Budget homes
 •	Mid-range homes
@@ -120,6 +126,7 @@ Properties were analyzed across:
 •	This helped in understanding different pricing behaviors across market segments.
 
 7️⃣ Data Visualization Dashboard
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 •	A user-friendly analytical dashboard was built using: a. Matplotlib b. Seaborn
 •	The dashboard clearly communicates insights for non-technical stakeholders.
 
