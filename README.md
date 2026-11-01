@@ -3,41 +3,70 @@ End-to-End Data Analytics Project using Python
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Project Overview
+
 •	This project focuses on analyzing real-estate housing data to identify the key factors influencing house prices.
+
 •	It demonstrates an end-to-end Data Analytics workflow, including data cleaning, missing value treatment, exploratory data analysis (EDA), data visualization, and business insight generation using Python.
+
 •	The dataset contains real-world issues such as missing values and outliers, making this project highly relevant for industry-level data analyst roles.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Project Objectives
+
 •	Clean and preprocess raw housing data
+
 •	Handle missing values using appropriate statistical methods
+
 •	Perform Exploratory Data Analysis (EDA)
+
 •	Visualize data using Matplotlib and Seaborn
+
 •	Identify price-driving factors in the housing market
+
 •	Generate actionable business insights
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Skills & Tools Used (ATS Optimized)
 •	Python
+
 •	NumPy
+
 •	Pandas
+
 •	Data Cleaning & Preprocessing
+
 •	Missing Value Treatment
+
 •	Exploratory Data Analysis (EDA)
+
 •	Data Visualization
+
 •	Matplotlib
+
 •	Seaborn
+
 •	Business Analytics
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Dataset Information
+
 Dataset Name: 
+
 King County House Sales Dataset (with NaN values) 
-Rows: 21,613 
+Rows: 21,613
+
 Columns: 22 
+
 Target Variable: price 
-Key Features: Property 
+
+Key Features: Property
+
 size: sqft_living, sqft_lot 
+
 Structure: bedrooms, bathrooms, floors 
+
 Quality: grade, condition 
+
 Location: zipcode, waterfront, view Renovation & construction: yr_built, yr_renovated
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
