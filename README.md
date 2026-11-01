@@ -52,9 +52,8 @@ Skills & Tools Used (ATS Optimized)
 
 Dataset Information
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Dataset Name: 
+Dataset Name:King County House Sales Dataset (with NaN values) 
 
-King County House Sales Dataset (with NaN values) 
 Rows: 21,613
 
 Columns: 22 
